@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Info Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="Info-hub.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Weather Info Hub</div>
+            <ul class="nav-links">
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- Welcome Section -->
+     <section class="welcome-section" id="welcome">
+        <div class="welcome-container">
+            <h1>Welcome to Weather Info Hub</h1>
+            <p>Your trusted source for real-time weather insights and updates. Plan your day with confidence!</p>
+            <div class="welcome-buttons">
+                <a href="#features" class="btn">Explore Features</a>
+                <a href="#hero" class="btn btn-alt">Check Weather Now</a>
+                <a href="#about" class="btn">Learn About Us</a>
+                <a href="#contact" class="btn btn-alt">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+     <!-- Hero Section -->
+     <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Stay Updated with Accurate Weather Forecasts</h1>
+            <p>Get real-time weather updates, forecasts, and more at your fingertips.</p>
+            <form class="search-form">
+                <input type="text" placeholder="Enter City " id="city-search">
+                <button type="submit">Get Weather</button>
+            </form>
+        </div>
+        <div class="hero-image">
+            <img src="Map.jpg" alt="Weather Update Image">
+        </div>
+    </section>
+
+
+    <!-- Weather Highlights Section -->
+    <section class="weather-highlights" id="highlights">
+        <h2>Current Weather</h2>
+        <div class="highlights-container">
+            <div class="highlight-card">
+                <h4 class="h">Humidity</h4>
+                <i class="fas fa-tint"></i>
+               <h3><span>70%</span></h3>
+                <p>Humidity Level</p>
+            </div>
+            <div class="highlight-card">
+                <h4 class="h">Temperature</h4>
+                <i class="fas fa-temperature-high"></i>
+                <h3><span>25°C</span></h3>
+                <p>Current Temp</p>
+            </div>
+            <div class="highlight-card">
+                <h4 class="h">Wind Speed</h4>
+                <i class="fas fa-wind"></i>
+                <h3><span>15 km/h</span></h3>
+                <p>Wind speed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weather Image Gallery Section -->
+    <section class="weather-gallery" id="gallery">
+        <h2>Weather Image Gallery</h2>
+        <p class="section-description">
+            Explore stunning weather images from around the world, showcasing nature's beauty in every season.
+        </p>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="thunder.jpg" alt="Stormy Weather">
+                <p>Thunderstorms</p>
+            </div>
+            <div class="gallery-item">
+                <img src="sunny.jpg" alt="Sunny Weather">
+                <p>Bright and Sunny</p>
+            </div>
+            <div class="gallery-item">
+                <img src="snowy.jpg" alt="Snowy Weather">
+                <p>Snowy Winter</p>
+            </div>
+            <div class="gallery-item">
+                <img src="rainy.jpg" alt="Rainy Weather">
+                <p>Rainy Days</p>
+            </div>
+          
+            <div class="gallery-item">
+                <img src="windy.jpg" alt="Windy Weather">
+                <p>Windy Afternoons</p>
+            </div>
+            <div class="gallery-item">
+                <img src="foggy.jpg" alt="Foggy Morning">
+                <p>Foggy Morning</p>
+            </div>
+        </div>
+    </section> 
+
+     <!-- About Section -->
+     <section class="about" id="about">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <img src="station.jpg" alt="Weather Station" class="about-image">
+            <p>
+                Welcome to <strong>Weather Info Hub</strong>, your go-to platform for accurate, real-time weather information. 
+                We are dedicated to providing reliable weather updates to help you plan your day and stay prepared for any 
+                conditions. Powered by advanced APIs and cutting-edge technology, our platform ensures that you get the most 
+                accurate data at your fingertips.
+            </p>
+            <p>
+                Whether you're planning a trip, monitoring weather patterns, or just curious about the forecast, we've got you covered. 
+                Our mission is to make weather data accessible and useful for everyone.
+            </p>
+            <p>
+                <strong>Our History</strong> founded in 2024, Weather Info Hub was created with the vision of democratizing weather information. 
+                We saw a gap in the availability of real-time, easily understandable weather data and set out to build a solution 
+                that could serve both casual users and professionals alike. Since then, we have grown into a trusted platform 
+                with thousands of daily users across the globe.
+            </p>
+            <p>
+                <strong>Our Technology</strong> Weather Info Hub leverages state-of-the-art weather APIs, including data from meteorological stations, satellites, 
+                and weather models. Our platform processes this data using machine learning algorithms to provide precise forecasts 
+                and alerts. We use a responsive and modern web design that ensures our platform works seamlessly on all devices.
+            </p>
+        </div>
+    </section>
+    
+
+   <!-- Features Section -->
+   <section class="features" id="features">
+    <h2>Key Features</h2>
+    <div class="features-container">
+        <div class="feature-item">
+            <i class="fas fa-cloud-sun"></i>
+            <h3>Real-Time Updates</h3>
+            <p>Stay informed with up-to-the-minute weather conditions.</p>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-calendar-alt"></i>
+            <h3>Weekly Forecast</h3>
+            <p>Plan ahead with detailed 7-day weather predictions.</p>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-wind"></i>
+            <h3>Wind & Humidity</h3>
+            <p>Access critical data like wind speed and humidity levels.</p>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-map-marked-alt"></i>
+            <h3>Interactive Maps</h3>
+            <p>Explore weather patterns through dynamic maps.</p>
+        </div>
+         </div>
+     </section>
+
+  
+     <!-- Testimonials Section -->
+     <section class="testimonials" id="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <p>"The most accurate weather app I’ve ever used! It helped me plan my trips perfectly."</p>
+                <h3>- Alex Morgan</h3>
+            </div>
+            <div class="testimonial-card">
+                <p>"I love the clean interface and real-time updates. This is a must-have for everyone!"</p>
+                <h3>- Priya Sharma</h3>
+            </div>
+            <div class="testimonial-card">
+                <p>"The detailed forecasts and weather highlights are super helpful. Great job!"</p>
+                <h3>- John Doe</h3>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+      <!-- Tips and Guides Section -->
+    <section class="tips-guides" id="tips-guides">
+        <h2>Weather Tips & Guides</h2>
+        <p class="section-description">
+            Stay informed and prepared with our expert tips and practical guides for every weather condition.
+        </p>
+        <div class="tips-container">
+            <div class="tip-card">
+                <h3>How to Stay Safe During a Storm</h3>
+                <p>Learn the essential steps to protect yourself and your family during severe storms.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="tip-card">
+                <h3>Preparing for Winter</h3>
+                <p>Get ready for the cold season with our comprehensive winter preparedness guide.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="tip-card">
+                <h3>Heatwave Survival Tips</h3>
+                <p>Discover effective ways to stay cool and hydrated during extreme heat.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+
+     <!-- Services Section -->
+     <section class="services" id="services">
+        <h2>Our Services</h2>
+        <p class="section-description">
+            Discover the wide range of services we offer to keep you informed and prepared.
+        </p>
+        <div class="services-container">
+            <div class="service-card">
+                <i class="fas fa-cloud-sun"></i>
+                <h3>Real-Time Weather</h3>
+                <p>Get instant updates on current weather conditions in your area.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Weather Analytics</h3>
+                <p>Access detailed weather trends and statistics for better decision-making.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-bell"></i>
+                <h3>Alerts & Notifications</h3>
+                <p>Receive timely alerts about severe weather conditions.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-map"></i>
+                <h3>Interactive Maps</h3>
+                <p>Visualize weather changes on dynamic, interactive maps.</p>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us. We're here to help!</p>
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+    
+
+     <!-- Footer Section -->
+     <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Weather Info Hub. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+<script src="Info-hub.js"></script>
+
+</body>
+</html>
